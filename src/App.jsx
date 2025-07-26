@@ -10,6 +10,12 @@ import Rectangle7 from './assets/Rectangle 7.png'
 import Group10 from './assets/Group 10.png'
 import profilepic from './assets/profilepic.png'
 import Ellipse4 from './assets/Ellipse 4.png'
+import google from './assets/google.png'
+import netflix from './assets/netflix.png'
+import Airbnb from './assets/Airbnb.png'
+import amazon from './assets/amazon.png'
+import facebook from './assets/facebook.png'
+import grab from './assets/grab.png'
 
 function App() {
 
@@ -119,6 +125,30 @@ function App() {
           <img src={Ellipse4}/>
         </div>
       </div>
+      </div>
+
+      <div>
+        <div className='rw-[603px] h-[45px] absolute top-[1218px] left-[659px] opacity-100 rotate-0'>
+          <span className='font-[Poppins] font-medium text-[28px] leading-[160%] tracking-[0.02em] text-[rgba(105,105,132,1)]'>Trusted by 5,000+ Companies Worldwide</span>
+        </div>
+        <div className='w-[168.3px] h-[54.7px] absolute top-[1305.92px] left-[292px] rotate-0 opacity-100'>
+          <img src={google}/>
+        </div>
+        <div className='w-[151.34px] h-[40.71px] absolute top-[1315.14px] left-[536.04px] rotate-0 opacity-100'>
+          <img src={netflix}/>
+        </div>
+        <div className='w-[161.32px] h-[49.93px] absolute top-[1305.92px] left-[763.11px] rotate-0 opacity-100'>
+          <img src={Airbnb} />
+        </div>
+        <div className='w-[153.64px] h-[46.09px] absolute top-[1317.44px] left-[1000.17px] -rotate-0 opacity-100'>
+          <img src={amazon} />
+        </div>
+        <div className='w-[193.37px] h-[38.41px] absolute top-[1306.69px] left-[1229.55px] rotate-0 opacity-100'>
+          <img src={facebook}/>
+        </div>
+        <div className='w-[130.43px] h-[50.49px] absolute top-[1295.93px] left-[1498.66px] rotate-0 opacity-100'>
+          <img src={grab}/>
+        </div>
       </div>
     </>
   )
