@@ -21,6 +21,12 @@ import cal from './assets/cal.png'
 import Group81 from './assets/Group 81.png'
 import Group22 from './assets/Group 22.png'
 import Group23 from './assets/Group 23.png'
+import Ellipse12 from './assets/Ellipse 12.png'
+import Ellipse13 from './assets/Ellipse 13.png'
+import Rectangle18 from './assets/Rectangle 18.png'
+import Rectangle17 from './assets/Rectangle 17.png'
+import gg from './assets/gg.png'
+import playbtn from './assets/playbtn.png'
 
 function App() {
 
@@ -37,19 +43,23 @@ function App() {
       <div className='flex justify-between items-center px-8 ml-110'>
         <div className='flex gap-8 text-[#252641] font-poppins text-[22px] ml-100'>
         <button className='w-[67px] h-[33px] top-[86px] left-[811px] rotate-0 opacity-100 
-      font-normal text-[22px] leading-[1] tracking-[0.02em] font-poppins text-[#252641]'>
+      font-normal text-[22px] leading-[1] tracking-[0.02em] font-poppins text-[#252641]
+      hover:scale-105 transition duration-200 cursor-pointer'>
         Home
       </button>
       <button className='w-[90px] h-[33px] top-[86px] left-[958px] rotate-0 opacity-100 
-      font-normal text-[22px] leading-[1] tracking-[0.02em] font-poppins text-[#252641]'>
+      font-normal text-[22px] leading-[1] tracking-[0.02em] font-poppins text-[#252641]
+      hover:scale-105 transition duration-200 cursor-pointer'>
         Careers
       </button>
       <button className='w-[50px] h-[33px] top-[86px] left-[1128px] rotate-0 opacity-100 
-      font-normal text-[22px] leading-[1] tracking-[0.02em] font-poppins text-[#252641]'>
+      font-normal text-[22px] leading-[1] tracking-[0.02em] font-poppins text-[#252641]
+      hover:scale-105 transition duration-200 cursor-pointer'>
         Blog
       </button>
       <button className='w-[102px] h-[33px] top-[86px] left-[1258px] rotate-0 opacity-100 
-      font-normal text-[22px] leading-[1] tracking-[0.02em] font-poppins text-[#252641]'>
+      font-normal text-[22px] leading-[1] tracking-[0.02em] font-poppins text-[#252641]
+      hover:scale-105 transition duration-200 cursor-pointer'>
         About us
       </button>
       </div>
@@ -257,6 +267,47 @@ function App() {
                 Enter access code
               </span>
             </div>
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <div className='w-[73px] h-[73px] absolute top-[3362px] left-[186px] rotate-0 opacity-100'>
+          <img src={Ellipse12} alt="ellipse" />
+        </div>
+        <div className='w-[655px] h-[116px] absolute top-[3375px] left-[211px] rotate-0 opacity-100'>
+          <span className='font-[Poppins] font-medium text-[36px] leading-[160%] tracking-[0%] text-[#252641]'>
+            Everything you can do in a physical classroom,{' '}
+          </span>
+          <span className='font-[Poppins] font-medium text-[36px] leading-[160%] tracking-[0%] text-[#F48C06]'>
+            you can do with Skilline
+          </span>
+        </div>
+        <div className='w-[730px] h-[172px] absolute top-[3521px] left-[211px] rotate-0 opacity-100'>
+          <span className='font-[Poppins] font-normal text-[24px] leading-[180%] tracking-[0.02em] text-[#696984]'>
+            Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure<br/> cloud-based system.
+          </span>
+        </div>
+        <button className='w-[125px] h-[40px] absolute top-[3723px] left-[211px] rotate-0 opacity-100
+        hover:scale-105 transition duration-200 cursor-pointer'>
+          <span className='font-[Poppins] font-normal text-[22px] leading-[180%] underline underline-offset-0 decoration-[1px] text-[#696984]'>
+            Learn more
+          </span>
+        </button>
+        <div className='w-[30px] h-[30px] absolute top-[3594px] left-[902px] rotate-0 opacity-100'>
+          <img src={Ellipse13} />
+        </div>
+        <div className='w-[138px] h-[138px] absolute top-[3311px] left-[988px] rotate-0 opacity-100 rounded-[20px]'>
+          <img src={Rectangle18} />
+        </div>
+        <div className='w-[231px] h-[231px] absolute top-[3592px] left-[1502px] rotate-0 opacity-100 rounded-[20px]'>
+          <img src={Rectangle17}/>
+        </div>
+        <div className='w-[705px] h-[471.08px] absolute top-[3331px] left-[1008px] rotate-0 opacity-100'>
+          <img src={gg}/>
+          <button className='mw-[70px] h-[70px] absolute top-[160px] left-[272px] rotate-0 opacity-100
+          hover:scale-105 transition duration-200 cursor-pointer'>
+            <img src={playbtn} />
           </button>
         </div>
       </div>
