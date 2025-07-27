@@ -19,6 +19,8 @@ import grab from './assets/grab.png'
 import doc from './assets/doc.png'
 import cal from './assets/cal.png'
 import Group81 from './assets/Group 81.png'
+import Group22 from './assets/Group 22.png'
+import Group23 from './assets/Group 23.png'
 
 function App() {
 
@@ -208,6 +210,54 @@ function App() {
           <div className='mw-[100px] h-[100px] absolute top-[-75px] left-[135px] rotate-0 opacity-100'>
             <img src={Group81} />
           </div>
+        </div>
+      </div>
+
+      <div>
+        <div className='w-[371px] h-[79px] absolute top-[2443px] left-[775px] rotate-0 opacity-100'>
+          <span className='font-[Poppins] font-semibold text-[44px] leading-[180%] tracking-[0%] text-center text-[#252641]'>
+            What is{' '}
+          </span>
+          <span className='font-[Poppins] font-semibold text-[44px] leading-[180%] tracking-[0%] text-center text-[#F48C06]'>
+            Skilline?
+          </span>
+        </div>
+        <div className='w-[1101px] h-[129px] absolute top-[2542px] left-[409px] rotate-0 opacity-100'>
+          <span className='font-[Poppins] font-normal text-[24px] leading-[180%] tracking-[0.02em] text-center text-[#696984]'>
+            Skilline is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.
+          </span>
+        </div>
+        <div className='w-[600px] h-[400px] absolute top-[2751px] left-[310px] rotate-0 opacity-100 rounded-[20px] border border-solid border-black'>
+          <img src={Group22}/>
+          <div className='w-[292px] h-[48px] absolute top-[138px] left-[154px] rotate-0 opacity-100'>
+            <span className='font-[Poppins] font-semibold text-[32px] leading-[100%] tracking-[0%] text-center text-[#FFFFFF]'>
+              FOR INSTRUCTORS
+            </span>
+          </div>
+          <button className='w-[283px] h-[80px] absolute top-[210px] left-[156px] rotate-0 opacity-100 rounded-[80px] border border-white
+          hover:scale-105 transition duration-200 cursor-pointer'>
+            <div className='w-[208px] h-[33px] absolute top-[28px] left-[50px] rotate-0 opacity-100'>
+              <span className='font-[Poppins] text-[22px] leading-[100%] tracking-[0%] text-center text-white'>
+                Start a class today
+              </span>
+            </div>
+          </button>
+        </div>
+        <div className='w-[600px] h-[400px] absolute top-[2751px] left-[1010px] rotate-0 opacity-100 rounded-[20px]'>
+          <img src={Group23} />
+          <div className='w-[232px] h-[48px] absolute top-[140px] left-[183px] rotate-0 opacity-100'>
+            <span className='font-[Poppins] font-semibold text-[32px] leading-[100%] tracking-[0%] text-center text-white'>
+              FOR STUDENTS
+            </span>
+          </div>
+          <button className='w-[283px] h-[80px] absolute top-[205px] left-[163px] rotate-0 opacity-100 rounded-[80px] bg-[rgba(35,189,238,0.9)]
+          hover:scale-105 transition duration-200 cursor-pointer'>
+            <div className='w-[202px] h-[33px] absolute top-[27px] left-[49px] rotate-0 opacity-100'>
+              <span className='font-[Poppins] font-medium text-[22px] leading-[100%] tracking-[0%] text-cente text-white'>
+                Enter access code
+              </span>
+            </div>
+          </button>
         </div>
       </div>
     </>
