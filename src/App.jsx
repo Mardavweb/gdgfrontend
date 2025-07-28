@@ -27,6 +27,15 @@ import Rectangle18 from './assets/Rectangle 18.png'
 import Rectangle17 from './assets/Rectangle 17.png'
 import gg from './assets/gg.png'
 import playbtn from './assets/playbtn.png'
+import Ellipse22 from './assets/Ellipse 22.png'
+import Ellipse21 from './assets/Ellipse 21.png'
+import Ellipse19 from './assets/Ellipse 19.png'
+import Group71 from './assets/Group 71.png'
+import Ellipse24 from './assets/Ellipse 24.png'
+import Group72 from './assets/Group 72.png'
+import Group73 from './assets/Group 73.png'
+import users2 from './assets/users 2.png'
+import Ellipse20 from './assets/Ellipse 20.png'
 
 function App() {
 
@@ -311,6 +320,81 @@ function App() {
           </button>
         </div>
       </div>
+
+    <div>
+        <div className='w-[239px] h-[65px] absolute top-[3983px] left-[841px] rotate-0 opacity-100'>
+          <span className='font-[Poppins] font-bold text-[36px] leading-[180%] tracking-[0%] text-[#252641]'>
+            Our{' '}
+          </span>
+          <span className='font-[Poppins] font-bold text-[36px] leading-[180%] tracking-[0%] text-[#F48C06]'>
+            Features
+          </span>
+        </div>
+        <div className='w-[888px] h-[43px] absolute top-[4068px] left-[516px] rotate-0 opacity-100'>
+          <span className='font-[Poppins] font-normal text-[24px] leading-[180%] tracking-[0%] text-center text-[#696984]'>
+            This very extraordinary feature, can make learning activities more efficient
+          </span>
+        </div>
+        <div className='w-[140px] h-[140px] absolute top-[4211px] left-[233px] rotate-0 opacity-100'>
+          <img src={Ellipse22}/>
+        </div>
+        <div className='w-[30px] h-[30px] absolute top-[4219px] left-[393px] rotate-0 opacity-100'>
+          <img src={Ellipse21}/>
+        </div>
+      <div className='w-[264px] h-[264px] absolute top-[4597px] left-[777px] rotate-0 opacity-100'>
+        <img src={Ellipse19} />
+      </div>
+      <div className='w-[896px] h-[522px] absolute top-[4287px] left-[170px] rotate-0 opacity-100'>
+        <img src={Group71} />
+      </div>
+      <div className='w-[30px] h-[30px] absolute top-[4809px] left-[748px] rotate-0 opacity-100'>
+        <img src={Ellipse20}/>
+      </div>
+      <div className='w-[542px] h-[128px] absolute top-[4328px] left-[1192px] rotate-0 opacity-100 text-left'>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+          A{' '}
+        </span>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
+          user interface
+        </span>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+          {' '}designed for the classroom
+        </span>
+      </div>
+      <div className='w-[60px] h-[60px] absolute top-[4517px] left-[1189px] rotate-0 opacity-100 shadow-custom-strong'>
+        <img src={Ellipse24} />
+        <div className='w-[12px] h-[26px] absolute top-[19px] left-[24px] rotate-0 opacity-100 rounded-[2px]'>
+          <img src={Group72} />
+        </div>
+      </div>
+      <div className='w-[60px] h-[60px] absolute top-[4641px] left-[1189px] rotate-0 opacity-100 shadow-custom-strong'>
+        <img src={Ellipse24} />
+        <div className='w-[12px] h-[26px] absolute top-[19px] left-[24px] rotate-0 opacity-100 rounded-[2px]'>
+          <img src={Group73}/>
+        </div>
+      </div>
+      <div className='w-[60px] h-[60px] absolute top-[4755px] left-[1189px] rotate-0 opacity-100 shadow-custom-strong'>
+        <img src={Ellipse24} />
+        <div className='w-[12px] h-[26px] absolute top-[19px] left-[24px] rotate-0 opacity-100'>
+          <img src={users2} />
+        </div>
+      </div>
+      <div className='w-[443px] h-[80px] absolute top-[4507px] left-[1291px] rotate-0 opacity-100 text-left'>
+        <span className='font-poppins font-normal text-[22px] leading-[180%] tracking-[2%] text-[#696984]'>
+          Teachers don’t get lost in the grid view<br/>and have a dedicated Podium space.
+        </span>
+      </div>
+      <div className='w-[443px] h-[80px] absolute top-[4627px] left-[1291px] rotate-0 opacity-100 text-left'>
+        <span  className='font-poppins font-normal text-[22px] leading-[180%] tracking-[2%] text-[#696984]'>
+          TA’s and presenters can be moved to<br/> the front of the class.
+        </span>
+      </div>
+      <div className='w-[443px] h-[80px] absolute top-[4747px] left-[1291px] rotate-0 opacity-100 text-left'>
+        <span  className='font-poppins font-normal text-[22px] leading-[180%] tracking-[2%] text-[#696984]'>
+          Teachers can easily see all students and class data at one time.
+        </span>
+      </div>
+   </div>
     </>
   )
 }
