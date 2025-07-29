@@ -48,6 +48,7 @@ import Ellipse108 from './assets/Ellipse 108.png'
 import Ellipse105 from './assets/Ellipse 105.png'
 import Group124 from './assets/Group 124.png'
 import Group106 from './assets/Group 106.png'
+import Rectangle31 from './assets/Rectangle 31.png'
 
 function App() {
 
@@ -523,6 +524,16 @@ function App() {
     <div className='absolute w-[755.24px] h-[499px] top-[7324px] left-[191px] rotate-0 opacity-100'>
       <img src={Group106} />
     </div>
+  </div>
+
+  <div className='absolute w-[280px] h-[80px] top-[7973px] left-[820px] rotate-0 opacity-100 rounded-[80px]'>
+    <img src={Rectangle31} />
+    <button className='relative w-[204px] h-[43px] top-[-63px] left-[8px] rotate-0 opacity-100
+      hover:scale-105 transition duration-200 cursor-pointer'>
+      <span className='font-nunito font-normal text-[24px] leading-[180%] tracking-[0.02em] text-[#F48C06]'>
+        See more features
+      </span>
+    </button>
   </div>
   </>
   )
