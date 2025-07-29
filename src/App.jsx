@@ -36,6 +36,7 @@ import Group72 from './assets/Group 72.png'
 import Group73 from './assets/Group 73.png'
 import users2 from './assets/users 2.png'
 import Ellipse20 from './assets/Ellipse 20.png'
+import Group122 from './assets/Group 122.png'
 
 function App() {
 
@@ -395,6 +396,26 @@ function App() {
         </span>
       </div>
    </div>
+
+  <div>
+   <div className='w-[393px] h-[128px] absolute top-[5210px] left-[239px] rotate-0 opacity-100 text-left'>
+      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
+        Tools{' '}
+      </span>
+      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+        For Teachers And Learners
+      </span>
+   </div>
+   <div className='w-[568px] h-[160px] absolute top-[5358px] left-[239px] rotate-0 opacity-100 text-left'>
+      <span className='font-poppins font-normal text-[22px] leading-[180%] tracking-[2%] text-[#696984]'>
+        Class has a dynamic set of teaching tools built to<br/> be deployed and used during class.
+        Teachers can<br/> handout assignments in real-time for students to complete and submit.
+      </span>
+      <div className='w-[637.2px] h-[611px] absolute top-[-330px] left-[804px] rotate-0 opacity-100'>
+        <img src={Group122} />
+      </div>
+   </div>
+  </div> 
     </>
   )
 }
