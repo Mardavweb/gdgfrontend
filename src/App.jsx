@@ -46,6 +46,11 @@ import Group90 from './assets/Group 90.png'
 import Group88 from './assets/Group 88.png'
 import Ellipse108 from './assets/Ellipse 108.png'
 import Ellipse105 from './assets/Ellipse 105.png'
+import Rectangle75 from './assets/Rectangle 75.png'
+import Group96 from './assets/Group 96.png'
+import Ellipse113 from './assets/Ellipse 113.png'
+import Ellipse112 from './assets/Ellipse 112.png'
+import Group124 from './assets/Group 124.png'
 
 function App() {
 
@@ -484,7 +489,26 @@ function App() {
       </div>
     </div>
   </div>
-    </>
+
+  <div>
+    <div className='w-[420.82px] h-[127.77px] absolute top-[6756.72px] left-[187px] rotate-0 opacity-100 text-left'>
+      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
+        Class Management<br/>
+      </span>
+      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+        Tools for Educators
+      </span>
+    </div>
+    <div className='w-[645.72px] h-[159.72px] absolute top-[6904.46px] left-[187px] rotate-0 opacity-100 text-left'>
+      <span className='font-poppins font-normal text-[22px] leading-[180%] tracking-[2%] text-[#696984]'>
+        Class provides tools to help run and manage the class<br/> such as Class Roster, Attendance, and more. With the<br/> Gradebook, teachers can review and grade tests and<br/> quizzes in real-time.
+      </span>
+    </div>
+    <div className='absolute w-[808.32px] h-[560px] top-[6604px] left-[923.68px] rotate-0 opacity-100'>
+      <img src={Group124}/>
+    </div>
+  </div>
+  </>
   )
 }
 
