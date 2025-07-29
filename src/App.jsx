@@ -37,6 +37,15 @@ import Group73 from './assets/Group 73.png'
 import users2 from './assets/users 2.png'
 import Ellipse20 from './assets/Ellipse 20.png'
 import Group122 from './assets/Group 122.png'
+import Ellipse106 from './assets/Ellipse 106.png'
+import Ellipse107 from './assets/Ellipse 107.png'
+import Rectangle64 from './assets/Rectangle 64.png'
+import MaskGroup from './assets/Mask Group.png'
+import Group89 from './assets/Group 89.png'
+import Group90 from './assets/Group 90.png'
+import Group88 from './assets/Group 88.png'
+import Ellipse108 from './assets/Ellipse 108.png'
+import Ellipse105 from './assets/Ellipse 105.png'
 
 function App() {
 
@@ -416,6 +425,65 @@ function App() {
       </div>
    </div>
   </div> 
+
+  <div>
+    <div className='w-[22.99px] h-[22.99px] absolute top-[5792px] left-[309.84px] rotate-0 opacity-100'>
+      <img src={Ellipse107} />
+    </div>
+    <div className='w-[99.64px] h-[99.64px] absolute top-[5817.87px] left-[192px] z-0 rotate-0 opacity-100'>
+      <img src={Ellipse106}/>
+    </div>
+    <div className='w-[465.62px] h-[562.39px] absolute top-[5836.07px] left-[237.99px] z-10 rotate-0 opacity-100 rounded-[18.21px] shadow-[0px_9.1px_43.69px_0px_rgba(40,43,111,0.10)]'>
+      <div className='w-[174.37px] h-[47.90px] absolute top-[54.39px] left-[30px] rotate-0 opacity-100 rounded-[72.82px]'>
+        <img src={Rectangle64}/>
+        <div className='w-[108.26px] h-[33.53px] absolute top-[8.1px] left-[35px] rotate-0 opacity-100'>
+          <span className='font-poppins font-normal text-[20.03px] leading-[160%] tracking-[0%] text-[#717FB0]'>
+            Question 1
+          </span>
+        </div>
+      </div>
+      <div className='w-[387.06px] h-[103.47px] absolute top-[140.54px] left-[37.31px] rotate-0 opacity-100 text-left'>
+        <span className='font-poppins font-semibold text-[30.95px] leading-[160%] tracking-[0%] text-[#55578D]'>
+          True or false? This play takes place in Italy
+        </span>
+      </div>
+      <div className='w-[456.04px] h-[255.63px] absolute top-[265px] left-[50.48px] rotate-0 opacity-100 rounded-[18.21px]">'>
+        <img src={MaskGroup} />
+      </div>
+      <div className='w-[365.03px] h-[119.76px] absolute top-[450px] left-[214.97px] rotate-0 opacity-100'>
+        <img src={Group89}/>
+      </div>
+      <div>
+        <img className='w-[76.65px] h-[76.65px] absolute top-[-35px] left-[390px] rotate-[-10.96deg] opacity-100' src={Group90} />
+      </div>
+      <div>
+        <img className='w-[76.65px] h-[76.65px] absolute top-[-6px] left-[410.79px] -rotate-[0.9deg] opacity-100' src={Group88} />
+      </div>
+      <div className='w-[16.29px] h-[16.29px] absolute top-[315px] left-[520px] rotate-0 opacity-100'>
+        <img src={Ellipse108} />
+      </div>
+      <div className='w-[19.16px] h-[19.16px] absolute top-[590px] left-[0px] rotate-0 opacity-100'>
+        <img src={Ellipse105} />
+      </div>
+      <div className='w-[347px] h-[128px] absolute top-[82px] left-[850px] rotate-0 opacity-100 text-left'>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+          Assessments,<br/>
+        </span>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
+          Quizzes
+        </span>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+          , Tests
+        </span>
+      </div>
+      <div className='w-[596px] h-[120px] absolute top-[220px] left-[850px] rotate-0 opacity-100 text-left'>
+        <span className='font-poppins font-normal text-[22px] leading-[180%] tracking-[2%] text-[#696984]'>
+          Easily launch live assignments, quizzes, and<br/> tests.
+          Student results are automatically entered in<br/> the online gradebook.
+        </span>
+      </div>
+    </div>
+  </div>
     </>
   )
 }
