@@ -49,6 +49,12 @@ import Ellipse105 from './assets/Ellipse 105.png'
 import Group124 from './assets/Group 124.png'
 import Group106 from './assets/Group 106.png'
 import Rectangle31 from './assets/Rectangle 31.png'
+import Line5 from './assets/Line 5.png'
+import Rectangle25 from './assets/Rectangle 25.png'
+import image2 from './assets/image 2.png'
+import image5 from './assets/image 5.png'
+import image3 from './assets/image 3.png'
+import image6 from './assets/image 6.png'
 
 function App() {
 
@@ -105,8 +111,8 @@ function App() {
       </div>
       <div className='w-[681px] h-[162px] absolute top-[335px] left-[140px] rotate-0 opacity-100 text-left'>
         <span className='font-[Poppins] font-bold text-[54px] leading-[100%] tracking-[0%] text-[#F48C06]'>Studying</span>
-        <span className='font-[Poppins] font-bold text-[54px] leading-[100%] tracking-[0%] text-[#252641]'> Online is now</span>
-        <span className='mtfont-[Poppins] font-bold text-[54px] leading-[100%] tracking-[0%] text-[#252641]'> much easier</span>
+        <span className='font-[Poppins] font-bold text-[54px] leading-[100%] tracking-[0%] text-[#2F327D]'> Online is now</span>
+        <span className='mtfont-[Poppins] font-bold text-[54px] leading-[100%] tracking-[0%] text-[#2F327D]'> much easier</span>
       </div>
       <div className='w-[523px] h-[76px] absolute top-[531px] left-[140px] rotate-0 opacity-100 text-left'>
         <span className='font-[Nunito Sans] font-normal text-[24px] leading-[160%] tracking-[0%]'>Skilline is an interesting platform that will teach you in more an interactive way</span>
@@ -190,7 +196,7 @@ function App() {
       
       <div>
         <div className='w-[501px] h-[65px] absolute top-[1524px] left-[713px] rotate-0 opacity-100'>
-          <span className='font-poppins font-bold text-[36px] leading-[180%] tracking-[0%] text-[#252641]'>All-In-One</span>
+          <span className='font-poppins font-bold text-[36px] leading-[180%] tracking-[0%] text-[#2F327D]'>All-In-One</span>
           <span className='font-poppins font-bold text-[36px] leading-[180%] tracking-[0%] text-[#F48C06]'> Cloud Software.</span>
         </div>
         <div className='w-[837px] h-[86px] absolute top-[1609px] left-[545px] rotate-0 opacity-100'>
@@ -247,7 +253,7 @@ function App() {
 
       <div>
         <div className='w-[371px] h-[79px] absolute top-[2443px] left-[775px] rotate-0 opacity-100'>
-          <span className='font-[Poppins] font-semibold text-[44px] leading-[180%] tracking-[0%] text-center text-[#252641]'>
+          <span className='font-[Poppins] font-semibold text-[44px] leading-[180%] tracking-[0%] text-center text-[#2F327D]'>
             What is{' '}
           </span>
           <span className='font-[Poppins] font-semibold text-[44px] leading-[180%] tracking-[0%] text-center text-[#F48C06]'>
@@ -298,7 +304,7 @@ function App() {
           <img src={Ellipse12} alt="ellipse" />
         </div>
         <div className='w-[655px] h-[116px] absolute top-[3375px] left-[211px] rotate-0 opacity-100'>
-          <span className='font-[Poppins] font-medium text-[36px] leading-[160%] tracking-[0%] text-[#252641]'>
+          <span className='font-[Poppins] font-medium text-[36px] leading-[160%] tracking-[0%] text-[#2F327D]'>
             Everything you can do in a physical classroom,{' '}
           </span>
           <span className='font-[Poppins] font-medium text-[36px] leading-[160%] tracking-[0%] text-[#F48C06]'>
@@ -336,7 +342,7 @@ function App() {
 
     <div>
         <div className='w-[239px] h-[65px] absolute top-[3983px] left-[841px] rotate-0 opacity-100'>
-          <span className='font-[Poppins] font-bold text-[36px] leading-[180%] tracking-[0%] text-[#252641]'>
+          <span className='font-[Poppins] font-bold text-[36px] leading-[180%] tracking-[0%] text-[#2F327D]'>
             Our{' '}
           </span>
           <span className='font-[Poppins] font-bold text-[36px] leading-[180%] tracking-[0%] text-[#F48C06]'>
@@ -364,13 +370,13 @@ function App() {
         <img src={Ellipse20}/>
       </div>
       <div className='w-[542px] h-[128px] absolute top-[4328px] left-[1192px] rotate-0 opacity-100 text-left'>
-        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#2F327D]'>
           A{' '}
         </span>
         <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
           user interface
         </span>
-        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#2F327D]'>
           {' '}designed for the classroom
         </span>
       </div>
@@ -414,7 +420,7 @@ function App() {
       <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
         Tools{' '}
       </span>
-      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#2F327D]'>
         For Teachers And Learners
       </span>
    </div>
@@ -469,13 +475,13 @@ function App() {
         <img src={Ellipse105} />
       </div>
       <div className='w-[347px] h-[128px] absolute top-[82px] left-[850px] rotate-0 opacity-100 text-left'>
-        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#2F327D]'>
           Assessments,<br/>
         </span>
         <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
           Quizzes
         </span>
-        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+        <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#2F327D]'>
           , Tests
         </span>
       </div>
@@ -493,7 +499,7 @@ function App() {
       <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
         Class Management<br/>
       </span>
-      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#2F327D]'>
         Tools for Educators
       </span>
     </div>
@@ -509,7 +515,7 @@ function App() {
 
   <div>
     <div className='absolute w-[274px] h-[128px] top-[7440px] left-[1137px] rotate-0 opacity-100 text-left'>
-      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#2F327D]'>
         One-on-One<br/>
       </span>
       <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
@@ -534,6 +540,51 @@ function App() {
         See more features
       </span>
     </button>
+  </div>
+
+  <div>
+    <div className='absolute w-[80px] h-px top-[8228px] left-[1001px] rotate-0 opacity-100 border-t border-[1px] border-solid'>
+      <img src={Line5} />
+    </div>
+    <div className='absolute w-[188px] h-[27px] top-[8213px] left-[1111px] rotate-0 opacity-100'>
+      <span className='font-nunito font-normal text-[20px] leading-[100%] tracking-[0.2em] text-[#525596]'>
+        INTEGRATIONS
+      </span>
+    </div>
+    <div className='absolute w-[480px] h-[116px] top-[8273px] left-[1001px] rotate-0 opacity-100 text-left'>
+      <span className='font-nunito font-bold text-[36px] leading-[160%] tracking-[0%] text-[#2F327D]'>
+        200+ educational tools and platform{' '}
+      </span>
+      <span className='font-nunito font-bold text-[36px] leading-[160%] tracking-[0%] text-[#F48C06]'>
+        integrations
+      </span>
+    </div>
+    <div className='absolute w-[687px] h-[129px] top-[8419px] left-[1001px] rotate-0 opacity-100 text-left'>
+      <span className='font-nunito font-normal text-[24px] leading-[180%] tracking-[0%] text-[#696984]'>
+        Schoology has every tool your classroom needs and comes<br/> pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.
+      </span>
+    </div>
+    <div className='absolute w-[280px] h-[80px] top-[8592px] left-[1000px] rotate-0 opacity-100 rounded-[80px]'>
+      <img src={Rectangle25} />
+      <button className='relative w-[196px] h-[40px] top-[-60px] left-[6px] rotate-0 opacity-100
+      hover:scale-105 transition duration-200 cursor-pointer'>
+        <span className='font-nunito font-normal text-[22px] leading-[180%] tracking-[0%] text-[#F48C06]'>
+          See All Integrations
+        </span>
+      </button>
+    </div>
+    <div className='absolute w-[228px] h-[195px] top-[8225px] left-[231px] rotate-0 opacity-100'>
+      <img src={image2} />
+    </div>
+    <div className='absolute w-[130px] h-[121px] top-[8300px] left-[550px] rotate-0 opacity-100'>
+      <img src={image5} />
+    </div>
+    <div className='absolute w-[138px] h-[135px] top-[8504px] left-[310px] rotate-0 opacity-100'>
+      <img src={image3}/>
+    </div>
+    <div className='absolute w-[159px] h-[159px] top-[8513px] left-[550px] rotate-0 opacity-100'>
+      <img src={image6} />
+    </div>
   </div>
   </>
   )
