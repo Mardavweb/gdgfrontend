@@ -46,11 +46,8 @@ import Group90 from './assets/Group 90.png'
 import Group88 from './assets/Group 88.png'
 import Ellipse108 from './assets/Ellipse 108.png'
 import Ellipse105 from './assets/Ellipse 105.png'
-import Rectangle75 from './assets/Rectangle 75.png'
-import Group96 from './assets/Group 96.png'
-import Ellipse113 from './assets/Ellipse 113.png'
-import Ellipse112 from './assets/Ellipse 112.png'
 import Group124 from './assets/Group 124.png'
+import Group106 from './assets/Group 106.png'
 
 function App() {
 
@@ -506,6 +503,25 @@ function App() {
     </div>
     <div className='absolute w-[808.32px] h-[560px] top-[6604px] left-[923.68px] rotate-0 opacity-100'>
       <img src={Group124}/>
+    </div>
+  </div>
+
+  <div>
+    <div className='absolute w-[274px] h-[128px] top-[7440px] left-[1137px] rotate-0 opacity-100 text-left'>
+      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#252641]'>
+        One-on-One<br/>
+      </span>
+      <span className='font-poppins font-semibold text-[40px] leading-[160%] tracking-[0%] text-[#F48C06]'>
+        Discussions
+      </span>
+    </div>
+    <div className='absolute w-[540px] h-[120px] top-[7588px] left-[1137px] rotate-0 opacity-100 text-left'>
+      <span className='font-poppins font-normal text-[22px] leading-[180%] tracking-[0.02em] text-[#696984]'>
+        Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.
+      </span>
+    </div>
+    <div className='absolute w-[755.24px] h-[499px] top-[7324px] left-[191px] rotate-0 opacity-100'>
+      <img src={Group106} />
     </div>
   </div>
   </>
