@@ -55,6 +55,12 @@ import image2 from './assets/image 2.png'
 import image5 from './assets/image 5.png'
 import image3 from './assets/image 3.png'
 import image6 from './assets/image 6.png'
+import Rectangle29 from './assets/Rectangle 29.png'
+import Group32 from './assets/Group 32.png'
+import Girlphoto from './assets/Girlphoto.png'
+import Line3 from './assets/Line 3.png'
+import Rectangle30 from './assets/Rectangle 30.png'
+import Group29 from './assets/Group 29.png'
 
 function App() {
 
@@ -442,7 +448,7 @@ function App() {
     <div className='w-[99.64px] h-[99.64px] absolute top-[5817.87px] left-[192px] z-0 rotate-0 opacity-100'>
       <img src={Ellipse106}/>
     </div>
-    <div className='w-[465.62px] h-[562.39px] absolute top-[5836.07px] left-[237.99px] z-10 rotate-0 opacity-100 rounded-[18.21px] shadow-[0px_9.1px_43.69px_0px_rgba(40,43,111,0.10)]'>
+    <div className='w-[465.62px] h-[562.39px] absolute top-[5836.07px] left-[237.99px] z-10 rotate-0 opacity-100 rounded-[18.21px] shadow-[0px_9.1px_43.69px_0px_rgba(40,43,111,0.10)] bg-white'>
       <div className='w-[174.37px] h-[47.90px] absolute top-[54.39px] left-[30px] rotate-0 opacity-100 rounded-[72.82px]'>
         <img src={Rectangle64}/>
         <div className='w-[108.26px] h-[33.53px] absolute top-[8.1px] left-[35px] rotate-0 opacity-100'>
@@ -584,6 +590,78 @@ function App() {
     </div>
     <div className='absolute w-[159px] h-[159px] top-[8513px] left-[550px] rotate-0 opacity-100'>
       <img src={image6} />
+    </div>
+  </div>
+
+  <div>
+    <div className='absolute w-[80px] h-px top-[8856px] left-[200px] rotate-0 opacity-100 border border-solid border-[#525596]'>
+      <img src={Line5} />
+    </div>
+    <div className='absolute w-[171px] h-[27px] top-[8842px] left-[310px] rotate-0 opacity-100'>
+      <span className='font-nunito font-normal text-[20px] leading-[100%] tracking-[0.2em] text-[#525596]'>
+        TESTIMONIAL
+      </span>
+    </div>
+    <div className='w-[455px] h-[82px] absolute top-[8901px] left-[200px] rotate-0 opacity-100'>
+      <span className='font-nunito font-bold text-[60px] leading-[100%] tracking-[0%] text-[#2F327D]'>
+        What They Say?
+      </span>
+    </div>
+    <div className='w-[607px] h-[84px] absolute top-[9012px] left-[205px] rotate-0 opacity-100 text-left'>
+      <span className='font-poppins font-normal text-[26px] leading-[160%] tracking-[2%] text-[#696984]'>
+        Skilline has got more than 100k positive<br/> ratings from our users around the world. 
+      </span>
+    </div>
+    <div className='w-[573px] h-[84px] absolute top-[9122px] left-[205px] rotate-0 opacity-100 text-left'>
+      <span className='font-poppins font-normal text-[26px] leading-[160%] tracking-[2%] text-[#696984]'>
+        Some of the students and teachers were<br/> greatly helped by the Skilline. 
+      </span>
+    </div>
+    <div className='w-[564px] h-[42px] absolute top-[9252px] left-[205px] rotate-0 opacity-100 text-left'>
+      <span className='font-poppins font-normal text-[26px] leading-[160%] tracking-[2%] text-[#696984]'>
+        Are you too? Please give your assessment 
+      </span>
+    </div>
+    <button className='w-[403px] h-[80px] absolute top-[9337px] left-[200px] rotate-0 opacity-100 rounded-[80px]
+    hover:scale-105 transition duration-200 cursor-pointer'>
+      <img src={Rectangle29}/>
+      <div className='w-[80px] h-[80px] relative top-[-80px] left-[323px] rotate-0 opacity-100'>
+        <img src={Group32} />
+        <div className='w-[259px] h-[35px] relative top-[-58px] left-[-280px] rotate-0 opacity-100 text-[#F48C06]'>
+          <span className='font-poppins font-normal text-[22px] leading-[160%] tracking-[2%]'>
+            Write your assessment
+          </span>
+        </div>
+      </div>
+    </button>
+    <div className='w-[560px] h-[700px] absolute top-[8842px] left-[970px] rotate-0 opacity-100'>
+      <img src={Girlphoto} />
+    </div>
+    <div className='w-[680px] h-[329px] absolute top-[9334px] left-[1039px] rotate-0 opacity-100 rounded-[20px] shadow-[2px_4px_60px_0px_#292C7C1A] bg-white'>
+      <div className='w-[534px] h-[160px] relative top-[60px] left-[126px] rotate-0 opacity-100 text-left'>
+        <span className='font-[Nunito_Sans] font-normal text-[22px] leading-[180%] tracking-[2%] text-[#5F5F7E]'>
+          "Thank you so much for your help. It's exactly what<br/> I've been looking for. You won't regret it. It really<br/> saves me time and effort. Skilline is exactly what<br/> our business has been lacking."
+        </span>
+      </div>
+      <div className='w-[139.01px] h-0 relative top-[-25px] left-[4px] rotate-90 opacity-100 border border-[#BDBDD1] '>
+        <img src={Line3} />
+      </div>
+      <div className='w-[14px] h-[329px] absolute top-[1px] left-[px] rotate-0 opacity-100 rounded-tl-[20px] rounded-bl-[20px] bg-[#F67766] shadow-[2px_4px_60px_0px_#292C7C1A]'>
+        <img src={Rectangle30} />
+      </div>
+      <div className='w-[127px] h-[43px] relative top-[99px] left-[128px] rotate-0 opacity-100'>
+        <span className='font-[Nunito Sans] font-semibold text-[24px] leading-[180%] tracking-[0%] text-[#5F5F7E]'>
+          Gloria Rose
+        </span>
+      </div>
+      <div className='w-[137px] h-[23.98px] relative top-[66px] left-[500px] rotate-0 opacity-100'>
+        <img src={Group29} />
+      </div>
+      <div className='w-[157px] h-[32px] relative top-[72px] left-[487px] rotate-0 opacity-100'>
+        <span className='font-[Nunito_Sans] font-semibold text-[18px] leading-[180%] tracking-[2%] text-[#80819A]'>
+          12 reviews at Yelp
+        </span>
+      </div>
     </div>
   </div>
   </>
