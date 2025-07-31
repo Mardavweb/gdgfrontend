@@ -61,6 +61,14 @@ import Girlphoto from './assets/Girlphoto.png'
 import Line3 from './assets/Line 3.png'
 import Rectangle30 from './assets/Rectangle 30.png'
 import Group29 from './assets/Group 29.png'
+import Group40 from './assets/Group 40.png'
+import Group39 from './assets/Group 39.png'
+import Rectangle33 from './assets/Rectangle 33.png'
+import Group44 from './assets/Group 44.png'
+import Group42 from './assets/Group 42.png'
+import Group45 from './assets/Group 45.png'
+import Group43 from './assets/Group 43.png'
+import Group46 from './assets/Group 46.png'
 
 function App() {
 
@@ -662,6 +670,89 @@ function App() {
           12 reviews at Yelp
         </span>
       </div>
+    </div>
+  </div>
+
+  <div>
+    <div className='w-[478px] h-[65px] absolute top-[9813px] left-[721px] rotate-0 opacity-100'>
+      <span className='font-[Nunito_Sans] font-bold text-[36px] leading-[180%] tracking-[0%] text-[#2F327D]'>
+        Lastest News and Resources
+      </span>
+    </div>
+    <div className='w-[706px] h-[43px] absolute top-[9898px] left-[607px] rotate-0 opacity-100'>
+      <span className='font-[Nunito_Sans] font-normal text-[24px] leading-[180%] tracking-[0%] text-center text-[#696984]'>
+        See the developments that have occurred to Skillines in the world
+      </span>
+    </div>
+    <div className='w-[640px] h-[340px] absolute top-[10041px] left-[200px] rotate-0 opacity-100 rounded-[20px]'>
+      <img src={Group40} />
+    </div>
+    <div className='w-[130px] h-[40px] absolute top-[10421px] left-[200px] rotate-0 opacity-100 rounded-[80px]'>
+      <img src={Group39} />
+    </div>
+    <div className='w-[609px] h-[94px] absolute top-[10481px] left-[200px] rotate-0 opacity-100 text-left'>
+      <span className='font-[Poppins] font-medium text-[26px] leading-[180%] tracking-[0%] text-[#252641]'>
+        Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution
+      </span>
+    </div>
+    <div className='w-[609px] h-[72px] absolute top-[10595px] left-[200px] rotate-0 opacity-100 text-left'>
+      <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] text-[#696984]'>
+        Class, launched less than a year ago by Blackboard<br/> co-founder Michael Chasen, integrates exclusively...
+      </span>
+    </div>
+    <button className='w-[114px] h-[36px] absolute top-[10695px] left-[200px] rotate-0 opacity-100
+    hover:scale-105 transition duration-200 cursor-pointer'>
+      <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] underline decoration-solid decoration-[0px] underline-offset-[0px] text-[#696984]'> 
+        Read more
+      </span>
+    </button>
+    <div className='w-[280px] h-[200px] absolute top-[10041px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
+      <img src={Rectangle33} />
+    </div>
+    <div className='w-[154px] h-[34px] absolute top-[10187px] left-[1066px] rotate-0 opacity-100 rounded-[80px]'>
+        <img src={Group44} />
+    </div>
+    <div className='w-[477px] h-[80px] absolute top-[10041px] left-[1280px] rotate-0 opacity-100 text-left'>
+      <span className='font-[Poppins] font-medium text-[22px] leading-[180%] tracking-[0em] text-[#252641]'>
+        Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand
+      </span>
+    </div>
+    <div className='w-[447px] h-[72px] absolute top-[10141px] left-[1280px] rotate-0 opacity-100 text-left'>
+      <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] text-[#696984]'>
+        Class Technologies Inc., the company that created Class,...
+      </span>
+    </div>
+    <div className='w-[280px] h-[200px] absolute top-[10291px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
+      <img src={Group42} />
+    </div>
+    <div className='w-[100px] h-[34px] absolute top-[10437px] left-[1120px] rotate-0 opacity-100 rounded-[80px]'>
+      <img src={Group45} />
+    </div>
+    <div className='w-[477px] h-[80px] absolute top-[10291px] left-[1280px] rotate-0 opacity-100 text-left'>
+      <span className='font-[Poppins] font-medium text-[22px] leading-[180%] tracking-[0em] text-[#252641]'>
+        Zoom’s earliest investors are betting millions on a better Zoom for schools
+      </span>
+    </div>
+    <div className='w-[447px] h-[72px] absolute top-[10391px] left-[1280px] rotate-0 opacity-100 text-left'>
+      <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] tect-[#696984]'>
+        Zoom was never created to be a consumer product. Nonetheless, the...
+      </span>
+    </div>
+    <div className='w-[280px] h-[200px] absolute top-[10541px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
+      <img src={Group43} />
+    </div>
+    <div className='w-[100px] h-[34px] absolute top-[10687px] left-[1120px] rotate-0 opacity-100 rounded-[80px]'>
+      <img src={Group46}/>
+    </div>
+    <div className='w-[477px] h-[80px] absolute top-[10541px] left-[1280px] rotate-0 opacity-100 text-left'>
+      <span className='font-[Poppins] font-medium text-[22px] leading-[180%] tracking-[0em] text-[#252641]'>
+        Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms
+      </span>
+    </div>
+    <div className='w-[447px] h-[72px] absolute top-[10641px] left-[1280px] rotate-0 opacity-100 text-left'>
+      <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] text-[#696984]'>
+        This year, investors have reaped big financial returns from betting on Zoom...
+      </span>
     </div>
   </div>
   </>
