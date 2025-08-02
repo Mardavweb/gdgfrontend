@@ -69,6 +69,10 @@ import Group42 from './assets/Group 42.png'
 import Group45 from './assets/Group 45.png'
 import Group43 from './assets/Group 43.png'
 import Group46 from './assets/Group 46.png'
+import Group115 from './assets/Group 115.png'
+import Rectangle81 from './assets/Rectangle 81.png'
+import Group116 from './assets/Group 116.png'
+import Group114 from './assets/Group 114.png'
 
 function App() {
 
@@ -755,6 +759,38 @@ function App() {
       </span>
     </div>
   </div>
+
+ <div>
+  <div className='w-[1920px] h-[593px] absolute top-[10901px] left-0 rotate-0 opacity-100 bg-[#252641]'></div>
+    <div className='w-[388px] h-[83px] absolute top-[10975px] left-[766px] rotate-0 opacity-100 rounded-[6px]'>
+      <img src={Group115} />
+    </div>
+    <div className='w-[440px] h-[39px] absolute top-[11153px] left-[740px] rotate-0 opacity-100'>
+      <span className='font-[Poppins] font-medium text-[26px] leading-[100%] tracking-[4%] text-center text-[#B2B3CF]'>
+        Subscribe to get our Newsletter
+      </span>
+    </div>
+    <div className='w-[400px] h-[60px] absolute top-[11212px] left-[661px] rotate-0 opacity-100 border border-solid border-black rounded-[80px]'>
+      <img src={Rectangle81} />
+    </div>
+    <div className='w-[112px] h-[30px] absolute top-[11232px] left-[691px] rotate-0 opacity-100'>
+      <span className='font-[Poppins] font-normal text-[20px] leading-[100%] tracking-[4%] text-center text-[#83839A]'>
+        Your Email
+      </span>
+    </div>
+    <button className='w-[179px] h-[60px] absolute top-[11212px] left-[1081px] rotate-0 opacity-100 rounded-[60px]
+    hover:scale-105 transition duration-200 cursor-pointer'> 
+      <img src={Group116} />
+    </button>
+    <div className='w-[564px] h-[33px] absolute top-[11368px] left-[678px] rotate-0 opacity-100'>
+      <img src={Group114} />
+    </div>
+    <div className='w-[358px] h-[33px] absolute top-[11421px] left-[781px] rotate-0 opacity-100'>
+      <span className='font-[Poppins] font-normal text-[22px] leading-[100%] tracking-[4%] text-center text-[#B2B3CF]'>
+        © 2021 Class Technologies Inc. 
+      </span>
+    </div>
+ </div> 
   </>
   )
 }
