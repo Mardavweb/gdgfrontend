@@ -6,7 +6,6 @@ import girl from './assets/girl.png'
 import Group7 from './assets/Group 7.png'
 import Group9 from './assets/Group 9.png'
 import Rectangle6 from './assets/Rectangle 6.png'
-import Rectangle7 from './assets/Rectangle 7.png'
 import Group10 from './assets/Group 10.png'
 import profilepic from './assets/profilepic.png'
 import Ellipse4 from './assets/Ellipse 4.png'
@@ -78,7 +77,8 @@ function App() {
 
   return (
     <>
-    <div className='w-[1670px] min-h-screen overflow-x-hidden'style={{ backgroundColor:'rgba(255,242,225,1)'}}>
+   <div>
+    <div className='w-[1920px] h-[1118px] rotate-0 opacity-100 bg-[#FFF2E1]'>
       <div className='w-[83px] h-[83px] top-[60px] left-[100px] rotate-0 opacity-100 rounded-[6px] absolute'>
         <img src={Polygon1} />
       </div>
@@ -109,7 +109,7 @@ function App() {
         About us
       </button>
       </div>
-      <div className="flex items-center gap-4">
+      <div className="mr-59 flex items-center gap-4">
         <div className=' w-[160px] h-[60px] top-[71px] left-[1440px] rotate-0 opacity-100 rounded-[80px] flex items-center justify-center' style={{backgroundColor: 'rgba(255, 255, 255, 1)'}}>
           <button className='w-[61px] h-[33px] top-[84px] left-[1490px] rotate-0 opacity-100
           font-[Poppins] font-normal text-[22px] leading-[100%] tracking-[2%] text-[ rgba(108,108,108,1)]
@@ -136,12 +136,13 @@ function App() {
         <span className='font-[Nunito Sans] font-normal text-[24px] leading-[160%] tracking-[0%]'>Skilline is an interesting platform that will teach you in more an interactive way</span>
       </div>
       <div className='flex'>
-      <div className='w-[220px] h-[80px] absolute top-[659px] left-[140px] rotate-0 opacity-100 rounded-[80px] bg-[#F48C06] flex items-center justify-center'>
-        <button className='w-[144px] h-[36px] top-[681px] left-[178px] rotate-0 opacity-100
-        font-[Poppins] font-semibold text-[24px] leading-[100%] tracking-[0%] text-[rgba(255,255,255,1)]
-        hover:scale-105 transition duration-200 cursor-pointer'>
-          Join for free
-          </button>
+      <div className='w-[220px] h-[80px] absolute top-[659px] left-[140px] rotate-0 opacity-100 rounded-[80px] bg-[#F48C06] flex items-center justify-center
+       hover:scale-105 transition duration-200 cursor-pointer'>
+        <button className='w-[144px] h-[36px] top-[681px] left-[178px] rotate-0 opacity-100'>
+          <span className='font-[Poppins] font-semibold text-[24px] leading-[100%] tracking-[0%] text-white'>
+            Join for free
+          </span> 
+        </button>
       </div>
         <button className='w-[80px] h-[80px] absolute top-[659px] left-[400px] rotate-0 opacity-100
         hover:scale-105 transition duration-200 cursor-pointer'>
@@ -187,6 +188,7 @@ function App() {
         </div>
       </div>
       </div>
+     </div> 
 
       <div>
         <div className='rw-[603px] h-[45px] absolute top-[1218px] left-[659px] opacity-100 rotate-0'>
@@ -778,7 +780,7 @@ function App() {
         Your Email
       </span>
     </div>
-    <button className='w-[179px] h-[60px] absolute top-[11212px] left-[1081px] rotate-0 opacity-100 rounded-[60px]
+    <button className='mw-[179px] h-[60px] absolute top-[11190px] left-[1081px] rotate-0 opacity-100 rounded-[60px]
     hover:scale-105 transition duration-200 cursor-pointer'> 
       <img src={Group116} />
     </button>
