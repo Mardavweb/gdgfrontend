@@ -1,10 +1,10 @@
-import { useState } from 'react'
 import './App.css'
 import Polygon1 from './assets/Polygon 1.png'
 import Group4 from './assets/Group 4.png'
 import girl from './assets/girl.png'
 import Group7 from './assets/Group 7.png'
 import Group9 from './assets/Group 9.png'
+import Group11 from './assets/Group 11.png'
 import Rectangle6 from './assets/Rectangle 6.png'
 import Group10 from './assets/Group 10.png'
 import profilepic from './assets/profilepic.png'
@@ -117,7 +117,8 @@ function App() {
             Login
           </button>
         </div>
-        <div className='w-[160px] h-[60px] top-[71px] left-[1634px] opacity-100 rounded-[80px] flex items-center justify-center'
+        <div className='w-[160px] h-[60px] top-[71px] left-[1634px] opacity-100 rounded-[80px] flex items-center justify-center
+        hover:scale-105 transition duration-200 cursor-pointer'
         style={{ backgroundColor: 'rgba(244,140,6,1)' }}>
           <button className='w-[87px] h-[33px] top-[84px] left-[1671px] opacity-100
           font-[Poppins] font-medium text-[22px] leading-[100%] tracking-[2%] text-[rgba(255,255,255,1)] items-center justify-center
@@ -166,6 +167,9 @@ function App() {
       <div className='w-[370px] h-[110px] absolute top-[604px] left-[1424px] rotate-0 opacity-100 rounded-[20px]'>  
       <img src= {Group10}/>
       </div>
+      <div className='w-[20px] h-[20px] absolute top-[625px] left-[1758px] opacity-100'>
+        <img src={Group11} alt="checkbox" />
+      </div>
       <div className='w-[390px] h-[187px] absolute top-[744px] left-[883px] rotate-0 opacity-100 rounded-[20px]'>
         <img src={Rectangle6}/>
         <div className='w-[56px] h-[56px] absolute top-[10px] left-[20px] rotate-0 opacity-100'>
@@ -190,7 +194,7 @@ function App() {
       </div>
      </div> 
 
-      <div>
+      <div className=''>
         <div className='rw-[603px] h-[45px] absolute top-[1218px] left-[659px] opacity-100 rotate-0'>
           <span className='font-[Poppins] font-medium text-[28px] leading-[160%] tracking-[0.02em] text-[rgba(105,105,132,1)]'>Trusted by 5,000+ Companies Worldwide</span>
         </div>
