@@ -86,7 +86,7 @@ function App() {
           font-bold text-[32px] leading-[1] tracking-[0.04em] font-poppins text-[#113C49]'>
           Skilline
       </span>
-      <div className='flex justify-between items-center px-8 ml-110'>
+      <div className='flex justify-between items-center px-8 ml-110 py-16'>
         <div className='flex gap-8 text-[#252641] font-poppins text-[22px] ml-100'>
         <button className='w-[67px] h-[33px] top-[86px] left-[811px] rotate-0 opacity-100 
       font-normal text-[22px] leading-[1] tracking-[0.02em] font-poppins text-[#252641]
