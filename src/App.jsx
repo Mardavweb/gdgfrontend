@@ -194,7 +194,7 @@ function App() {
       </div>
      </div> 
 
-      <div className=''>
+      <div>
         <div className='rw-[603px] h-[45px] absolute top-[1218px] left-[659px] opacity-100 rotate-0'>
           <span className='font-[Poppins] font-medium text-[28px] leading-[160%] tracking-[0.02em] text-[rgba(105,105,132,1)]'>Trusted by 5,000+ Companies Worldwide</span>
         </div>
@@ -683,83 +683,122 @@ function App() {
     </div>
   </div>
 
-  <div>
-    <div className='w-[478px] h-[65px] absolute top-[9813px] left-[721px] rotate-0 opacity-100'>
+
+{/* // last section */}
+  <div className='latest-news relative top-[8700px]'>
+    {/* Header */}
+    <div className='w-[478px] h-[65px] absolute top-[0px] left-3/4 transform -translate-x-1/2 text-center'>
       <span className='font-[Nunito_Sans] font-bold text-[36px] leading-[180%] tracking-[0%] text-[#2F327D]'>
-        Lastest News and Resources
+        Latest News and Resources
       </span>
     </div>
-    <div className='w-[706px] h-[43px] absolute top-[9898px] left-[607px] rotate-0 opacity-100'>
+    
+    {/* Subtitle */}
+    <div className='w-[706px] h-[43px] absolute top-[70px] left-3/4 transform -translate-x-1/2 text-center rotate-0 opacity-100'>
       <span className='font-[Nunito_Sans] font-normal text-[24px] leading-[180%] tracking-[0%] text-center text-[#696984]'>
         See the developments that have occurred to Skillines in the world
       </span>
     </div>
-    <div className='w-[640px] h-[340px] absolute top-[10041px] left-[200px] rotate-0 opacity-100 rounded-[20px]'>
+    
+    {/* Main featured image */}
+    <div className='w-[640px] h-[340px] absolute top-[130px] left-[200px] rotate-0 opacity-100 rounded-[20px]'>
       <img src={Group40} />
     </div>
-    <div className='w-[130px] h-[40px] absolute top-[10421px] left-[200px] rotate-0 opacity-100 rounded-[80px]'>
+    
+    {/* Featured article tag */}
+    <div className='w-[130px] h-[40px] absolute top-[490px] left-[200px] rotate-0 opacity-100 rounded-[80px]'>
       <img src={Group39} />
     </div>
-    <div className='w-[609px] h-[94px] absolute top-[10481px] left-[200px] rotate-0 opacity-100 text-left'>
+    
+    {/* Featured article title */}
+    <div className='w-[609px] h-[94px] absolute top-[550px] left-[200px] rotate-0 opacity-100 text-left'>
       <span className='font-[Poppins] font-medium text-[26px] leading-[180%] tracking-[0%] text-[#252641]'>
         Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution
       </span>
     </div>
-    <div className='w-[609px] h-[72px] absolute top-[10595px] left-[200px] rotate-0 opacity-100 text-left'>
+    
+    {/* Featured article description */}
+    <div className='w-[609px] h-[72px] absolute top-[664px] left-[200px] rotate-0 opacity-100 text-left'>
       <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] text-[#696984]'>
         Class, launched less than a year ago by Blackboard<br/> co-founder Michael Chasen, integrates exclusively...
       </span>
     </div>
-    <button className='w-[114px] h-[36px] absolute top-[10695px] left-[200px] rotate-0 opacity-100
+    
+    {/* Featured article read more button */}
+    <button className='w-[114px] h-[36px] absolute top-[764px] left-[200px] rotate-0 opacity-100
     hover:scale-105 transition duration-200 cursor-pointer'>
       <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] underline decoration-solid decoration-[0px] underline-offset-[0px] text-[#696984]'> 
         Read more
       </span>
     </button>
-    <div className='w-[280px] h-[200px] absolute top-[10041px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
+    
+    {/* Article 1 - Image */}
+    <div className='w-[280px] h-[200px] absolute top-[130px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
       <img src={Rectangle33} />
     </div>
-    <div className='w-[154px] h-[34px] absolute top-[10187px] left-[1066px] rotate-0 opacity-100 rounded-[80px]'>
+    
+    {/* Article 1 - Tag */}
+    <div className='w-[154px] h-[34px] absolute top-[276px] left-[1066px] rotate-0 opacity-100 rounded-[80px]'>
         <img src={Group44} />
     </div>
-    <div className='w-[477px] h-[80px] absolute top-[10041px] left-[1280px] rotate-0 opacity-100 text-left'>
+    
+    {/* Article 1 - Title */}
+    <div className='w-[477px] h-[80px] absolute top-[130px] left-[1280px] rotate-0 opacity-100 text-left'>
       <span className='font-[Poppins] font-medium text-[22px] leading-[180%] tracking-[0em] text-[#252641]'>
         Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand
       </span>
     </div>
-    <div className='w-[447px] h-[72px] absolute top-[10141px] left-[1280px] rotate-0 opacity-100 text-left'>
+    
+    {/* Article 1 - Description */}
+    <div className='w-[447px] h-[72px] absolute top-[230px] left-[1280px] rotate-0 opacity-100 text-left'>
       <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] text-[#696984]'>
         Class Technologies Inc., the company that created Class,...
       </span>
     </div>
-    <div className='w-[280px] h-[200px] absolute top-[10291px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
+    
+    {/* Article 2 - Image */}
+    <div className='w-[280px] h-[200px] absolute top-[380px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
       <img src={Group42} />
     </div>
-    <div className='w-[100px] h-[34px] absolute top-[10437px] left-[1120px] rotate-0 opacity-100 rounded-[80px]'>
+    
+    {/* Article 2 - Tag */}
+    <div className='w-[100px] h-[34px] absolute top-[526px] left-[1120px] rotate-0 opacity-100 rounded-[80px]'>
       <img src={Group45} />
     </div>
-    <div className='w-[477px] h-[80px] absolute top-[10291px] left-[1280px] rotate-0 opacity-100 text-left'>
+    
+    {/* Article 2 - Title */}
+    <div className='w-[477px] h-[80px] absolute top-[380px] left-[1280px] rotate-0 opacity-100 text-left'>
       <span className='font-[Poppins] font-medium text-[22px] leading-[180%] tracking-[0em] text-[#252641]'>
-        Zoom’s earliest investors are betting millions on a better Zoom for schools
+        Zoom's earliest investors are betting millions on a better Zoom for schools
       </span>
     </div>
-    <div className='w-[447px] h-[72px] absolute top-[10391px] left-[1280px] rotate-0 opacity-100 text-left'>
-      <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] tect-[#696984]'>
+    
+    {/* Article 2 - Description */}
+    <div className='w-[447px] h-[72px] absolute top-[480px] left-[1280px] rotate-0 opacity-100 text-left'>
+      <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] text-[#696984]'>
         Zoom was never created to be a consumer product. Nonetheless, the...
       </span>
     </div>
-    <div className='w-[280px] h-[200px] absolute top-[10541px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
+    
+    {/* Article 3 - Image */}
+    <div className='w-[280px] h-[200px] absolute top-[630px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
       <img src={Group43} />
     </div>
-    <div className='w-[100px] h-[34px] absolute top-[10687px] left-[1120px] rotate-0 opacity-100 rounded-[80px]'>
+    
+    {/* Article 3 - Tag */}
+    <div className='w-[100px] h-[34px] absolute top-[776px] left-[1120px] rotate-0 opacity-100 rounded-[80px]'>
       <img src={Group46}/>
     </div>
-    <div className='w-[477px] h-[80px] absolute top-[10541px] left-[1280px] rotate-0 opacity-100 text-left'>
+    
+    {/* Article 3 - Title */}
+    <div className='w-[477px] h-[80px] absolute top-[630px] left-[1280px] rotate-0 opacity-100 text-left'>
       <span className='font-[Poppins] font-medium text-[22px] leading-[180%] tracking-[0em] text-[#252641]'>
         Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms
       </span>
     </div>
-    <div className='w-[447px] h-[72px] absolute top-[10641px] left-[1280px] rotate-0 opacity-100 text-left'>
+    
+    {/* Article 3 - Description */}
+    <div className='w-[447px] h-[72px] absolute top-[730px] left-[1280px] rotate-0 opacity-100 text-left'>
       <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] text-[#696984]'>
         This year, investors have reaped big financial returns from betting on Zoom...
       </span>
